@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+
+Sitemap: https://superioradvantages.netlify.app/sitemaps3.xml/
