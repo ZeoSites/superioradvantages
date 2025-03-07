@@ -177,7 +177,7 @@ for d in os.listdir('crown-molding'):
                     try:
                         search_categories = open(f'crown-molding/{d}/{c}/{b}', "r", encoding="utf8").read()
                         
-                        op= search_categories.replace("﻿", '').replace('https://superioradvantages.biz/', 'https://superioradvantages.netlify.app/').replace('http://superioradvantages.biz/', 'https://superioradvantages.netlify.app/').replace('(206) 803-8518', '(888) 498-9391').replace('tel:2068038518', 'tel:8884989391')
+                        op= search_categories.replace("﻿", '').replace('https://superioradvantages.biz/', 'https://superioradvantages.netlify.app/').replace('http://superioradvantages.biz/', 'https://superioradvantages.netlify.app/').replace('(206) 803-8518', '(888) 498-9391').replace('tel:2068038518', 'tel:8884989391').replace('bedcandfunnel','bedc&funnel')
          
                         
                         fp = open(f'crown-molding/{d}/{c}/{b}', "w", encoding='utf-8-sig')
@@ -193,7 +193,7 @@ for d in os.listdir('crown-molding'):
 for d in os.listdir('crown-molding'):
     try:
         search_categories = open(f'crown-molding/{d}/index.html', "r", encoding="utf8").read()
-        op= search_categories.replace("﻿", '').replace('https://superioradvantages.biz/', 'https://superioradvantages.netlify.app/').replace('http://superioradvantages.biz/', 'https://superioradvantages.netlify.app/').replace('(206) 803-8518', '(888) 498-9391').replace('tel:2068038518', 'tel:8884989391')
+        op= search_categories.replace("﻿", '').replace('https://superioradvantages.biz/', 'https://superioradvantages.netlify.app/').replace('http://superioradvantages.biz/', 'https://superioradvantages.netlify.app/').replace('(206) 803-8518', '(888) 498-9391').replace('tel:2068038518', 'tel:8884989391').replace('bedcandfunnel','bedc&funnel')
         # if 'crown-molding' in str(d):
         #     shutil.rmtree(f'crown-molding/{d}')
             
@@ -216,7 +216,7 @@ for d in os.listdir('crown-molding'):
 try:
     search_categories = open(f'crown-molding/index.html', "r", encoding="utf8").read()
     
-    op= search_categories.replace("﻿", '').replace('https://superioradvantages.biz/', 'https://superioradvantages.netlify.app/').replace('http://superioradvantages.biz/', 'https://superioradvantages.netlify.app/').replace('(206) 803-8518', '(888) 498-9391').replace('tel:2068038518', 'tel:8884989391')
+    op= search_categories.replace("﻿", '').replace('https://superioradvantages.biz/', 'https://superioradvantages.netlify.app/').replace('http://superioradvantages.biz/', 'https://superioradvantages.netlify.app/').replace('(206) 803-8518', '(888) 498-9391').replace('tel:2068038518', 'tel:8884989391').replace('bedcandfunnel','bedc&funnel')
     
     fp = open(f'crown-molding/index.html', "w", encoding='utf-8-sig')
     fp.writelines(op)
@@ -227,7 +227,7 @@ except:
 try:
     search_categories = open(f'index.html', "r", encoding="utf8").read()
     
-    op= search_categories.replace("﻿", '').replace('https://superioradvantages.biz/', 'https://superioradvantages.netlify.app/').replace('http://superioradvantages.biz/', 'https://superioradvantages.netlify.app/').replace('(206) 803-8518', '(888) 498-9391').replace('tel:2068038518', 'tel:8884989391')
+    op= search_categories.replace("﻿", '').replace('https://superioradvantages.biz/', 'https://superioradvantages.netlify.app/').replace('http://superioradvantages.biz/', 'https://superioradvantages.netlify.app/').replace('(206) 803-8518', '(888) 498-9391').replace('tel:2068038518', 'tel:8884989391').replace('bedcandfunnel','bedc&funnel')
     
     fp = open(f'crown-molding/index.html', "w", encoding='utf-8-sig')
     fp.writelines(op)
